@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/affdc5536d.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>One-Mind</title>
+    <!--Mi hoja de estilos-->
+    <link href="./assets/css/style.css" rel="stylesheet" />
   </head>
   <body>
     <header id="header">
@@ -13,7 +20,8 @@
 
     <main id="main">
       <section id="contenido-1">
-        <img id="img-1" src="" alt="imagen de comillas" />
+        <!-- <img id="img-1" src="" alt="Imagen de Comillas" />-->
+        <i class="fa-solid fa-quote-left"></i>
 
         <form id="form">
           <input
@@ -24,12 +32,22 @@
             required
           />
           <label for="emoji"> Me siento... </label>
-          <button type="submit" id="feliz"></button>
-          <button type="submit" id="triste"></button>
-          <button type="submit" id="tranquilo"></button>
-          <button type="submit" id="enojado"></button>
+          <button type="submit" id="feliz">
+            <i class="fa-regular fa-face-smile"></i>
+          </button>
+          <button type="submit" id="triste">
+            <i class="fa-solid fa-face-frown"></i>
+          </button>
+          <button type="submit" id="tranquilo">
+            <i class="fa-regular fa-face-smile-wink"></i>
+          </button>
+          <button type="submit" id="enojado">
+            <i class="fa-solid fa-face-angry"></i>
+          </button>
         </form>
       </section>
     </main>
+
+    <script src="./main.js/index.js" type="text"></script>
   </body>
 </html>
