@@ -4,53 +4,65 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OneMind JS</title>
     <!--fontawesome-->
     <script
       src="https://kit.fontawesome.com/affdc5536d.js"
       crossorigin="anonymous"
     ></script>
-    <title>One-Mind</title>
-    <!--Mi hoja de estilos-->
+    <!-- Mi Hoja de Estilos -->
     <link href="./assets/css/style.css" rel="stylesheet" />
   </head>
   <body>
     <header id="header">
-      <h1>OneMind Js</h1>
+      <h1>¿Cómo te sientes hoy?</h1>
     </header>
 
     <main id="main">
-      <section id="contenido-1">
-        <!-- <img id="img-1" src="" alt="Imagen de Comillas" />-->
+      <section id="contenido-1" class="principal">
         <i class="fa-solid fa-quote-left"></i>
 
-        <form id="form">
+        <form id="form" class="form">
           <input
             id="sentimiento"
             type="text"
-            placeholder="cuentame como te sientes.."
+            placeholder="Cuentame como te sientes..."
             name="sentimiento"
-            required
           />
 
-          <div>
+          <div id="contenedor-btns">
             <label for="emoji"> Me siento... </label>
-            <button type="submit" id="feliz">
-              <i class="fa-regular fa-face-smile"></i>
+            <button type="submit" class="feliz-btn">
+              Feliz
+              <a class="feliz-btn"
+                ><i class="fa-regular fa-face-laugh-beam"></i
+              ></a>
             </button>
-            <button type="submit" id="triste">
-              <i class="fa-solid fa-face-frown"></i>
+            <button type="submit" class="triste-btn">
+              Triste
+              <a class="triste-btn"
+                ><i class="fa-regular fa-face-sad-tear"></i
+              ></a>
             </button>
-            <button type="submit" id="tranquilo">
-              <i class="fa-regular fa-face-smile-wink"></i>
+            <button type="submit" class="tranquilo-btn">
+              Tranquilo
+              <a class="tranquilo-btn"
+                ><i class="fa-regular fa-face-smile-wink"></i
+              ></a>
             </button>
-            <button type="submit" id="enojado">
-              <i class="fa-solid fa-face-angry"></i>
+            <button type="submit" class="enojado-btn">
+              Enojado
+              <a class="enojado-btn"
+                ><i class="fa-regular fa-face-angry"></i
+              ></a>
             </button>
+            <p id="estado-animo"></p>
           </div>
         </form>
       </section>
     </main>
-    <!--Mi hoja de Javascript-->
-    <script src="./main.js/index.js" type="text"></script>
+
+    <!-- Mi hoja de JS -->
+    <script src="./js/main.js" type="text/javascript"></script>
   </body>
 </html>

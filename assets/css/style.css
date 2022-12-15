@@ -3,12 +3,65 @@
   padding: 0%;
 }
 
+
+
+.principal, 
 .form {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  height: 15rem;
+  width: 50rem;
+  margin-left: 5%;
+  
+  
 }
 
-.enoja
+#sentimiento{
+  padding: 1%;
+  margin: 2%;
+}
+
+
+/*colores de fondo del body*/
+.enojado {
+  background-color: red;
+}
+
+.tranquilo {
+  background-color: rgb(0, 200, 255);
+}
+.feliz {
+  background-color: yellow;
+}
+.triste {
+  background-color: rgb(17, 0, 255);
+}
+
+
+/*//////////////////////////////*/
+
+/*Colores de fondo de la seccion*/
+
+.enojado-s {
+  background-color: rgb(201, 40, 40);
+}
+
+.tranquilo-s {
+  background-color: rgb(87, 184, 211);
+}
+.feliz-s {
+  background-color: rgba(226, 226, 4, 0.993);
+}
+.triste-s {
+  background-color: rgb(74, 64, 207);
+}
+
+.main{
+  margin: 10%;
+}
+
+
+
 
